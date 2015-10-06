@@ -4,7 +4,7 @@ public class skiftTur {
 
 	private int check;
 	
-	public void skiftTur(){
+	public static void skiftTur(){
 		if(checkdobbelt){
 			if(check == 1)
 				check = 1;
@@ -18,7 +18,7 @@ public class skiftTur {
 				check = 1;
 		}
 	}
-	private int getCheck(){
+	public int getCheck(){
 		return check;
 	}
 }
