@@ -2,12 +2,13 @@ package spil;
 
 public class VindSpil {
 
-	public String checkWin(){
-		if(Tur.getCheck = 1){
-			return(Spiller1.getNavn + " har vundet");
+	public static String win(int y){
+		String x = "";
+		if(y==1){
+			x = ("Spiller1 har vundet");
 		}
-		else if(Tur.getCheck = 1){
-			return(Spiller2.getNavn + " har vundet");
-		}
+		else if(y==2)
+			x = ("Spiller 2 har vundet");
+		return x;
 	}
 }

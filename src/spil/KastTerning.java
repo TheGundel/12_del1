@@ -4,9 +4,13 @@ public class KastTerning {
 
 	private int værdi;
 	
-	public static int kast(){
+	public void kast(){
 		double x = Math.random()*6+1;
 		int y = (int)x;
-		return y;
+		værdi = y;
+	}
+	
+	public int getVærdi(){
+		return værdi;
 	}
 }
